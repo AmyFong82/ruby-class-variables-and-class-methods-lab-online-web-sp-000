@@ -16,6 +16,7 @@ class Song
     @@count += 1
     if !GENRE.include?(genre)
       GENRE << genre
+    end
 
   end
 
